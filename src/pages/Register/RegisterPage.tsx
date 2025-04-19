@@ -10,7 +10,7 @@ export const RegisterPage = () => {
             await createUserWithEmailAndPassword(auth, email, password);
             navigate("/");
         } catch (e) {
-            alert("ошибка регистрации: " + (e as Error).message);
+            alert("Ошибка регистрации: " + (e as Error).message);
         }
     };
 

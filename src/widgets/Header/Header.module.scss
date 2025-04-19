@@ -1,0 +1,35 @@
+/* src/widgets/Header/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #1e293b; /* тёмно-синий */
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .logoutBtn {
+    padding: 8px 16px;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .logoutBtn:hover {
+    background-color: #dc2626;
+  }
+  
